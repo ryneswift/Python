@@ -89,8 +89,8 @@ def array_separation(pd_df, num_bins_white, num_bins_black):
 
 #Rename the variables in this function
 def plot_points_only(pd_df):
-    white_ratings = pd_df['White Ratings'].to_numpy()  
-    black_ratings = pd_df['Black Ratings'].to_numpy()
+    white_ratings = pd_df['White Rating'].to_numpy()  
+    black_ratings = pd_df['Black Rating'].to_numpy()
 
     # Create a scatter plot
     plt.scatter(white_ratings, black_ratings)
@@ -109,8 +109,8 @@ def plot_points_only(pd_df):
 #Rename the variables in this function
 def plot_white_boundaries_only(pd_df, white_elo_boundaries):
     # Extract the 'White Ratings' and 'Black Ratings' columns from the DataFrame
-    white_ratings = pd_df['White Ratings'].to_numpy()  
-    black_ratings = pd_df['Black Ratings'].to_numpy()  
+    white_ratings = pd_df['White Rating'].to_numpy()  
+    black_ratings = pd_df['Black Rating'].to_numpy()  
     
     # Create a list of colors for each point
     colors = []
@@ -144,8 +144,8 @@ def plot_white_boundaries_only(pd_df, white_elo_boundaries):
 
 
 
-#Rename the variables in this function
-#Work on this later. it is not quite finished yet. the whole plot will look like one big chunk of 4 colors when outputted
+#Call this function to display the elo ratings of the white and black players which are grouped by 
+#the white elo grids and black elo subgrids.
 def plot_elo_boundaries(pd_df, white_elo_boundaries, black_elo_boundaries):
 
     
