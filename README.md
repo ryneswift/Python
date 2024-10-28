@@ -1,5 +1,7 @@
 Python code and outputs demonstrating machine learning, use of the Pandas library, data cleaning, and multiprocessing.
 
+The 'Code Files' folder contains .py files, while the "Output Files" folder contains outputs corresponding to each .py.
+
 Lichess Machine Learning Sample Output is the output of the file Machine Learning on Chess.
 
 Lichess Multiprocessing is the program which generates the datasets which are used in Pandas Queries and the Machine Learning on Chess programs. 
