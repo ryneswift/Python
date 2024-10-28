@@ -10,4 +10,4 @@ The file necessary to be input into the Lichess Multiprocessing program can be d
 
 The file which LiChess Multiprocessing examines can be found by going to: https://database.lichess.org/ and downloading the 2013-January games file in .pgn notation. After doing so, replace the file path to access the file and run the program.
 
-
+Note that 'svm_model_summary_array.csv' is needed to run the Lichess Machine Learning program.
