@@ -1,4 +1,4 @@
-Python code and output demonstrating machine learning, use of the Pandas library, data cleaning, and multiprocessing.
+Python code and outputs demonstrating machine learning, use of the Pandas library, data cleaning, and multiprocessing.
 
 Lichess Machine Learning Sample Output is the output of the file Machine Learning on Chess.
 
