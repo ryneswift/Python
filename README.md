@@ -1,6 +1,6 @@
 Python code and outputs demonstrating machine learning, use of the Pandas library, data cleaning, and multiprocessing.
 
-Note that the Lichess Machine Learning code is similar in nature to the code in my research project. The main differences being that it uses a different dataset, different predictors, and is done in Python instead of R. 
+Note that the Lichess Machine Learning code is similar in nature to the code in my research project. The main differences being that it uses a different dataset and predictors, and is coded in Python instead of R. 
 
 The 'Code Files' folder contains .py files, while the "Output Files" folder contains outputs corresponding to each .py.
 
